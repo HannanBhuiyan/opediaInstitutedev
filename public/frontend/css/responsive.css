@@ -1,0 +1,1308 @@
+/* =======responsive start here====== */
+
+
+/* @media screen and (min-width: 1400px) {
+
+  }
+/* @media screen and (min-width: 1400px) {
+.p-student-avater {
+    position: absolute;
+    right: 3em;
+    bottom: 9.6rem;
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+  }
+
+@media screen and (max-width: 1399px) {
+
+} */
+
+@media screen and (max-width: 1699px) {
+    .course__title h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 1450px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .p-student-avater {
+        bottom: 9.6rem;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .footer__dimen .dimen__title h2 {
+        font-size: 42px;
+    }
+    .footer__dimen .dimen__title h1 {
+        font-size: 56px;
+    }
+    .seat__book__inner form input,
+    .seat__book__inner form select {
+        width: 30.9%;
+        margin-bottom: 7px;
+    }
+    .seat__book__inner form button {
+        width: 100%;
+    }
+    .course__title img {
+        display: none;
+    }
+    .overview__section .overview {
+        padding-right: 0;
+    }
+}
+
+
+/* Min 992 to 1199 */
+
+@media screen and (max-width: 1199px) {
+    .hero-left-content h1 {
+        font-size: 4rem;
+        line-height: 5.8rem;
+    }
+    .hero-left-content p {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    .btn-second {
+        font-size: 2rem;
+    }
+    .btn-main {
+        font-size: 2rem;
+    }
+    .section-title h2 {
+        font-size: 3rem;
+    }
+    ul.section-list li {
+        font-size: 1.6rem;
+    }
+    .about-big {
+        height: 50rem;
+    }
+    img.hero-utils {
+        width: 51em;
+        height: 71em;
+        left: -29px;
+    }
+    .hero-img img {
+        height: auto;
+        width: 100%;
+    }
+    .hero-left-content h1 span {
+        font-size: 5rem;
+    }
+    .hero-left-content h2 {
+        font-size: 4rem;
+    }
+    .hero-left-content h1 img {
+        width: 15.5rem;
+        right: 52px;
+        bottom: -9px;
+    }
+    .swiper.mySwiper {
+        height: 145px;
+    }
+    /* COURSE SECTION */
+    ul.course-list li a {
+        font-size: 2rem;
+    }
+    .course-footer h2 {
+        font-size: 2.7rem;
+        line-height: 4.2rem;
+    }
+    .course-bottom-item:nth-child(1):after {
+        right: -10rem;
+    }
+    .course-bottom-item:nth-child(2):after {
+        right: -10rem;
+    }
+    .course-bottom-item img {
+        width: 8rem;
+    }
+    .course-bottom-item span {
+        font-size: 1.8rem;
+        margin-top: 3rem;
+    }
+    .course-section .list-group-item:hover {
+        padding-left: 0;
+    }
+    .course-section .list-group-item:before {
+        display: none;
+    }
+    .course-section .list-group-item:hover img {
+        display: none;
+    }
+    .section-title2.about h2 span:after {
+        width: 77%;
+    }
+    .section-title2.virtual h2 span:after {
+        width: 87%;
+        left: 12%;
+    }
+    .testimonial-section .section-title2 h2 span:after {
+        width: 35%;
+        left: 0;
+    }
+    /* ACTIVITIES SECTION */
+    .activities-title-wrap h4 {
+        font-size: 1.8rem;
+    }
+    .activities-bottom p {
+        font-size: 2rem;
+    }
+    /* FACILITIES */
+    .facilities-section .section-title p {
+        padding-right: 2rem;
+    }
+    .section-title h2:after {
+        width: 176px;
+    }
+    .teacher-sec-wrap .card-img-top {
+        width: 100% !important;
+    }
+    .facilities-img img {
+        height: 220px;
+    }
+    /* MARKET SECTION */
+    .course-short-modal.market .course-details-wrap {
+        width: 30.3rem;
+    }
+    .activities-page .course-short-modal.market {
+        left: -3.5rem;
+    }
+    .course-short-modal.market.activity {
+        left: 11rem;
+    }
+    .ac-hero-content h1 {
+        font-size: 43px;
+        line-height: 62px;
+    }
+    .ac-hero-content p {
+        font-size: 16px;
+    }
+    .ac-hero-content h1:after {
+        width: 297px;
+    }
+    .featured-img-text {
+        width: 63%;
+    }
+    .activities-section.activities-page .owl-nav {
+        left: 93%;
+    }
+    .section-title2 h2 span {
+        font-size: 40px;
+        display: block
+    }
+    .section-title2 p {
+        font-size: 17px;
+    }
+    .marketplace-section {
+        padding: 7rem 0 7rem;
+        padding-bottom: 3rem;
+    }
+    /* FOOTER */
+    .footer__top {
+        padding: 100px 0;
+    }
+    .footer__dimen .dimen__title h2 {
+        font-size: 33px;
+    }
+    .footer__dimen .dimen__title h1 {
+        font-size: 44px;
+    }
+    .triton__social {
+        width: 50%;
+    }
+    .footer__triton .triton__menu {
+        width: 90%;
+    }
+    .partner__section {
+        margin: 120px 0;
+    }
+    .seat__book__inner form button {
+        margin-top: 15px;
+    }
+    .seat__title form {
+        flex-wrap: wrap;
+    }
+    .facilities-banner-right-content h1.f-title {
+        font-size: 37px;
+        line-height: 53px;
+    }
+    .facilities-banner-right-content p {
+        font-size: 16px;
+    }
+    .overview__course__details {
+        padding: 40px 25px 56px;
+    }
+    .overview__course__details .title h4 {
+        font-size: 27px;
+    }
+    p.mentor_name {
+        top: 48%;
+    }
+    .course-wrap .card-title {
+        font-size: 1.6rem;
+    }
+    .career__opportunity .title h4 {
+        font-size: 30px;
+    }
+    .overview .overview__title h4,
+    .overview .overview__module h4 {
+        font-size: 30px;
+    }
+    .course_details_hero img.youtube {
+        width: 10rem;
+        height: 10rem;
+    }
+    /* contact */
+    img.location_contact {
+        right: 19%;
+        top: 42%;
+    }
+    .checkout-section .main-title {
+        font-size: 36px;
+    }
+    .checkout-section .pay-cost>h2 {
+        font-size: 21px;
+        line-height: 0;
+    }
+    .scroll-up img {
+        height: 170px;
+    }
+    .scroll-up {
+        bottom: 0;
+        right: 0
+    }
+}
+
+
+/* Min 768 to 991 */
+
+@media screen and (max-width: 991PX) {
+    .hero-left-content h1 {
+        font-size: 5rem;
+        line-height: 7rem;
+    }
+    .hero-left-content p {
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+    .hero-img {
+        margin-top: 35px;
+        margin-left: 0;
+    }
+    .btn-second {
+        font-size: 1.6rem;
+    }
+    .btn-main {
+        font-size: 1.6rem;
+    }
+    .nav__list {
+        column-gap: 2.3rem;
+    }
+    .nav__logo {
+        display: none;
+    }
+    li.nav-item {
+        margin: 0px 1em;
+    }
+    img.hero-utils {
+        left: 0;
+    }
+    .header {
+        padding: 2rem 0;
+        padding-top: 3rem;
+    }
+    .nav {
+        justify-content: center;
+    }
+    .nav__list {
+        column-gap: 1.3rem;
+    }
+    li.nav-item a.nav-link {
+        font-size: 1.8rem;
+    }
+    .nav__name {
+        font-size: 1.6rem !important;
+    }
+    .btn {
+        font-size: 1.5rem;
+    }
+    li.nav__item a.btn {
+        margin-top: -1rem;
+    }
+    .hero-left-content {
+        text-align: center;
+    }
+    ul.section-list {
+        margin-bottom: 6em;
+    }
+    .about-opedia-section {
+        padding-top: 5em;
+    }
+    /* COURSE SECTION */
+    ul.course-list {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+    }
+    .course-short-modal {
+        left: 16%;
+        top: 118px;
+    }
+    .course-footer h2 {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .course-bottom-item:nth-child(1):after {
+        right: -3rem;
+    }
+    .course-bottom-item:nth-child(2):after {
+        right: -3rem;
+    }
+    ul.course-list li:hover:before {
+        display: none;
+    }
+    ul.course-list li:hover {
+        padding-left: 0;
+    }
+    ul.course-list li:hover img {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+    .course-short-modal {
+        left: -6%;
+        top: 0;
+    }
+    .course-details-wrap {
+        width: 31.3rem;
+    }
+    .activities-section .owl-carousel .owl-stage-outer {
+        height: 35rem;
+    }
+    .course-section .list-group-item {
+        font-size: 2rem;
+    }
+    .section-title2.about h2 {
+        font-size: 18px;
+    }
+    /* tabs */
+    .list-group {
+        flex-direction: row;
+        margin-bottom: 3em;
+    }
+    .list-group-item:hover:before {
+        visibility: hidden;
+        opacity: 0;
+        left: 0;
+        display: none;
+    }
+    .list-group-item:hover img {
+        display: none;
+    }
+    .list-group-item:hover {
+        padding-left: 0;
+    }
+    /* FACILITIES */
+    .facilities-section .section-title p {
+        padding-right: 0rem;
+    }
+    .course-short-modal.market {
+        left: -5.5rem;
+        top: -5em;
+    }
+    .course-short-modal.market .course-details-wrap {
+        width: 33.3rem;
+    }
+    .section-title2.about h2 span {
+        font-size: 37px;
+        display: block;
+    }
+    .section-title2.virtual h2 span:after {
+        width: 49%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .section-title2.virtual {
+        text-align: center !important;
+        margin-top: 40px;
+    }
+    .section-title2 p {
+        text-align: center;
+    }
+    .section-title2.provide h2 span:after {
+        width: 65%;
+        left: 0;
+    }
+    .hero-section {
+        padding-top: 13em;
+    }
+    /* MARKET SECTION */
+    .marketplace-section .owl-carousel .owl-stage-outer {
+        height: 80rem !important;
+    }
+    .marketplace-title h3 {
+        font-size: 14px;
+    }
+    .marketplace-section .owl-item.active.center {
+        transform: scale(1);
+    }
+    .course-short-modal.market {
+        left: 11.5rem;
+    }
+    .course-short-modal.market .course-details-wrap {
+        width: 36.3rem;
+    }
+    /* STUDENT SECTION */
+    .student-project-section .owl-carousel .owl-stage-outer {
+        padding: 0 1rem !important;
+    }
+    .teacher-sec-wrap .card-title {
+        font-size: 20px;
+    }
+    svg#circle-1 {
+        width: 700px;
+    }
+    svg#circle-2 {
+        width: 560px;
+    }
+    .testimonial-title h2 {
+        font-size: 40px;
+        line-height: 61px;
+    }
+    .ac-hero-content h1:after {
+        left: 0;
+    }
+    span.ac-date {
+        font-size: 35px;
+    }
+    .featured-img-text {
+        width: 57%;
+    }
+    .activities-4-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .activities-4-wrap .card {
+        margin: 0 10px;
+    }
+    .activities-page .course-short-modal.market .course-details-wrap {
+        width: 28.3rem;
+    }
+    .activities-page .course-short-modal.market.activity {
+        left: 0;
+    }
+    .activities-page .owl-carousel .owl-stage-outer {
+        height: 62rem;
+    }
+    span.ac-date {
+        font-size: 26px;
+    }
+    span.ac-date img {
+        width: 3rem!important;
+        height: 3rem;
+    }
+    .activities-section.activities-page .owl-nav {
+        left: 90%;
+    }
+    /* FOOTER */
+    .footer__triton .triton__menu ul li a {
+        font-size: 13px;
+    }
+    .footer__dimen .dimen__title h2 {
+        font-size: 22px;
+        line-height: unset;
+    }
+    .footer__dimen .dimen__title h1 {
+        font-size: 32px;
+        line-height: unset;
+    }
+    .footer__triton .triton__menu {
+        width: 95%;
+    }
+    .partners__logo img {
+        width: 175px;
+    }
+    .seat__book__inner form input,
+    .seat__book__inner form select {
+        width: 28.9%;
+    }
+    .seat__book__inner form input {
+        padding: 14px;
+    }
+    .seat__book__inner form input::placeholder {
+        font-size: 18px;
+    }
+    .seat__book__inner form select {
+        padding: 13px 14px;
+        font-size: 18px;
+    }
+    .seat__book__inner form button {
+        padding: 12px;
+        font-size: 23px;
+    }
+    .seat__book__inner form input,
+    .seat__book__inner form select {
+        width: 29.7%;
+    }
+    .facilities-banner-right-content h1.f-title {
+        text-align: center;
+    }
+    .facilities-banner-right-content p {
+        text-align: center;
+    }
+    .facility__section {
+        margin: 130px 0;
+    }
+    .facility__box.text-center {
+        margin-bottom: 50px;
+        overflow: hidden;
+    }
+    .facility__box.text-center p {
+        font-size: 14px;
+    }
+    .facility__box.text-center h4 {
+        font-size: 27px;
+    }
+    .facility__section .swiper-slide.swiper-slide-duplicate.swiper-slide-next .slider__box {
+        transform: scale(1) !important;
+    }
+    .course__title {
+        padding: 40px;
+    }
+    .course__title h1 {
+        font-size: 31px;
+    }
+    .course__title h1 {
+        font-size: 28px;
+    }
+    p.mentor_name {
+        top: 50%;
+    }
+    .overview .overview__title h4,
+    .overview .overview__module h4,
+    .career__opportunity .title h4 {
+        text-align: center;
+    }
+    .overview .overview__title p {
+        margin: 30px 0 46px;
+    }
+    .overview__course__details {
+        padding: 40px 60px 56px;
+    }
+    .overview__module {
+        margin-bottom: 40px;
+    }
+    img.location_contact {
+        right: 9%;
+        top: 42%;
+    }
+    p.c_desc {
+        font-size: 18px;
+    }
+    .address {
+        padding: 27px !important;
+    }
+    .contact-info p {
+        word-break: break-word;
+        font-size: 15px;
+    }
+    .form-title {
+        font-size: 40px;
+    }
+    .activities-hero-section.actvts-from .ac-hero-img img {
+        width: 100%;
+    }
+    .signIn-section .title-signin {
+        font-size: 44px;
+    }
+    .signIn-section .opedia-img {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+    .signIn-section .info-form {
+        padding: 40px 1px;
+    }
+}
+
+
+/* Min 576 to 767 */
+
+@media screen and (max-width: 767PX) {
+    .scroll-header {
+        box-shadow: none;
+    }
+    .header {
+        background-color: transparent;
+    }
+    img.hero-utils {
+        width: 100%;
+        height: 68em;
+        left: -29px;
+    }
+    .nav__img {
+        position: fixed;
+        right: 15px;
+        opacity: .8;
+        transition: .3s;
+        color: #Fff;
+    }
+    .nav__img:hover {
+        opacity: 1;
+    }
+    li.nav__item a.btn {
+        display: none;
+    }
+    .nav__icon {
+        font-size: 2.5rem;
+    }
+    .nav__name {
+        font-size: 1.3rem !important;
+    }
+    .nav__list {
+        column-gap: 3rem;
+    }
+    .btn-second {
+        font-size: 1.6rem;
+    }
+    .btn-main {
+        font-size: 1.6rem;
+    }
+    /* COURSE SECTION */
+    .course-short-modal {
+        left: 5%;
+        top: 0;
+    }
+    .course-footer {
+        margin-bottom: 6em;
+        text-align: center;
+    }
+    .list-group-item {
+        font-size: 1.8rem;
+    }
+    .section-title2.about {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .section-title2.about h2 span:after {
+        width: 32%;
+        left: 51%;
+        transform: translateX(-50%);
+    }
+    .facilities-img img {
+        height: auto;
+    }
+    .testimonial-section .section-title2 {
+        text-align: center;
+    }
+    .testimonial-section .section-title2 h2 span:after {
+        width: 63%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    h2.partnar-top:after {
+        width: 166px !important;
+    }
+    .partner__section .section-title h2:after {
+        width: 178px;
+    }
+    /* ACTIVITIES SECTION */
+    .activities-section .owl-carousel .owl-stage-outer {
+        height: 45rem;
+    }
+    .activities-bottom p {
+        line-height: 3rem;
+    }
+    .student-project-section .owl-carousel .owl-stage-outer {
+        padding: 0 0rem !important;
+    }
+    .mt-80 {
+        margin-top: 30px;
+    }
+    .marketplace-section {
+        padding: 20rem 0 0rem;
+    }
+    .teacher-section .owl-item.active.center {
+        transform: scale(1);
+    }
+    .teacher-section .owl-carousel .owl-stage-outer {
+        height: 66rem !important;
+    }
+    .section-title span {
+        font-size: 3rem;
+    }
+    svg#circle-1 {
+        width: 540px;
+    }
+    svg#circle-2 {
+        width: 450px;
+    }
+    svg#circle-3 {
+        width: 331px;
+    }
+    .testimonial-userImage img {
+        width: 4em
+    }
+    p.testimonial-para {
+        font-size: 18px;
+    }
+    .activities-4-wrap {
+        flex-direction: column;
+    }
+    .activities-page .owl-carousel .owl-stage-outer {
+        height: 67rem;
+    }
+    .activities-page .course-short-modal.market {
+        left: 0;
+    }
+    .ac-hero-content h1:after {
+        left: 0;
+    }
+    .featured-img-text {
+        width: 78%;
+    }
+    /* FOOTER */
+    .footer__triton {
+        text-align: left;
+        margin-top: 70px;
+    }
+    .footer__triton .triton__title {
+        margin-top: 20px;
+    }
+    .triton__social {
+        margin-right: auto;
+        width: 70%;
+    }
+    .Dimen__logo img {
+        width: 37%;
+    }
+    .footer__triton .triton__menu {
+        margin-right: auto;
+        margin-top: 33px;
+    }
+    .partner__section {
+        margin: 90px 0;
+    }
+    .seat__book__inner form input,
+    .seat__book__inner form select {
+        width: 29.7%;
+    }
+    .seat__book__inner form input::placeholder {
+        font-size: 16px;
+    }
+    .seat__book__inner form select {
+        padding: 13px 14px;
+        font-size: 16px;
+    }
+    .seat__book__inner form button {
+        padding: 12px;
+        font-size: 23px;
+    }
+    .seat__title h4 {
+        font-size: 32px;
+    }
+    p.seat-book-text {
+        font-size: 17px;
+    }
+    .facility__section {
+        margin: 100px 0;
+    }
+    .facility__box.text-center p {
+        font-size: 20px;
+    }
+    .overview .overview__title h4,
+    .overview .overview__module h4,
+    .career__opportunity .title h4 {
+        font-size: 24px;
+    }
+    .overview__course__details {
+        padding: 30px;
+    }
+    .requiremnts {
+        margin-bottom: 25px;
+    }
+    .course__title h1 {
+        font-size: 20px;
+    }
+    .course__title p {
+        font-size: 14px;
+    }
+    .opportunity__list ul li p {
+        text-align: left;
+    }
+    .inner-head {
+        margin-top: 0;
+    }
+    .header-title>h1 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    img.location_contact {
+        right: 10%;
+        top: 23%;
+        width: 3em;
+    }
+    img.location_contact {
+        right: 10%;
+        top: 25%;
+        width: 2.5em;
+    }
+    .registration-section .next-btn {
+        padding: 13px 45px;
+        font-size: 17px;
+    }
+    .registration-section {
+        margin-bottom: 140px;
+    }
+    .enroll-btn {
+        padding: 11px 24px;
+        font-size: 15px;
+    }
+    .checkout-section .main-title {
+        font-size: 33px;
+    }
+    .checkout-section .button-promo {
+        padding: 14px 45px;
+        font-size: 18px;
+    }
+    .signIn-section .opedia-img {
+        width: 400px;
+    }
+    .scroll-up {
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 575PX) {
+    .hero-left-content h1 {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+    .nav__list {
+        column-gap: 2.5rem;
+    }
+    .section-title h2 {
+        font-size: 2.5rem;
+    }
+    ul.section-list li {
+        font-size: 1.5rem;
+    }
+    /* COURSE SECTION */
+    ul.course-list li a {
+        font-size: 1.5rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .course-details-wrap {
+        width: 35.3rem;
+    }
+    .course-short-modal {
+        left: 0;
+        top: 0;
+    }
+    .course-bottom-item:nth-child(1):after {
+        right: -2rem;
+    }
+    .course-bottom-item:nth-child(2):after {
+        right: -2rem;
+    }
+    .course-bottom-item img {
+        width: 6rem;
+    }
+    .course-bottom-item span {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .mb-100 {
+        margin-bottom: 50px;
+    }
+    .list-group-item {
+        font-size: 1.5rem;
+    }
+    /* ACTIVITIES SECTION */
+    .activities-section .owl-carousel .owl-stage-outer {
+        height: 37rem;
+    }
+    .activities-bottom p {
+        line-height: 3rem;
+        FONT-SIZE: 1.8rem;
+    }
+    .btn-main {
+        font-size: 1.5rem;
+    }
+    .mt-80 {
+        margin-top: 25px;
+    }
+    /* MARKET SECTION */
+    .course-short-modal.market {
+        left: 0;
+    }
+    .student-project-section .section-title h2:after {
+        right: 50%;
+        transform: translate(50%);
+    }
+    img.main {
+        width: 12.5em !important;
+    }
+    svg#circle-3 {
+        width: 195px;
+    }
+    svg#circle-2 {
+        width: 276px;
+    }
+    svg#circle-1 {
+        width: 350px;
+    }
+    .testimonial-title h2 {
+        font-size: 29px;
+        line-height: 45px;
+    }
+    .testimonial-section.pt-100 {
+        padding-top: 0;
+    }
+    .test-person-details p {
+        font-size: 13px;
+    }
+    .test-person-details h5 {
+        font-size: 20px;
+    }
+    .activities-page .owl-carousel .owl-stage-outer {
+        height: 67rem;
+    }
+    .featured-img-text {
+        width: 98%;
+    }
+    .featured-img-text .ac-f-title {
+        font-size: 22px;
+    }
+    ac-hero-content h1 {
+        font-size: 25px;
+        line-height: 50px;
+    }
+    span.ac-date {
+        font-size: 22px;
+    }
+    .partner__section {
+        margin: 50px 0;
+    }
+    .seat__title h4 {
+        font-size: 28px;
+    }
+    .seat__title form {
+        margin: 64px 0;
+    }
+    .seat__book__inner form input,
+    .seat__book__inner form select {
+        width: 100%;
+    }
+    .facility__title {
+        margin-bottom: 40px;
+    }
+    .facility__title h1 {
+        font-size: 40px;
+    }
+    .facility__box.text-center h4 {
+        font-size: 25px;
+    }
+    .facility__box.text-center p {
+        font-size: 16px;
+    }
+    .facility__slider .slider__title h4 {
+        font-size: 28px;
+    }
+    .facilities-banner-right-content h1.f-title {
+        font-size: 29px;
+        line-height: 42px;
+    }
+    .facilities-banner-right-content p {
+        font-size: 15px;
+    }
+    .course__details.pt-120 {
+        padding: 0;
+    }
+    .course__title h1 {
+        font-size: 14px;
+    }
+    .course_details_hero img.youtube {
+        width: 6rem;
+        height: 6rem;
+    }
+    .course__title p {
+        font-size: 12px;
+    }
+    .requiremnts h4,
+    .software h4 {
+        font-size: 22px;
+    }
+    .course-wrap.c_wrap_page .card img {
+        height: 210px;
+    }
+    p.mentor_name {
+        top: 48%;
+    }
+    .form-title {
+        font-size: 30px;
+    }
+    .activities-hero-section.pt-180 {
+        padding-top: 70px;
+    }
+    .ac-hero-content h1 {
+        font-size: 35px;
+        line-height: 49px;
+    }
+    .checkout-section .main-title {
+        font-size: 25px;
+    }
+    .checkout-section .payment-subtitle {
+        margin-top: 0;
+        font-size: 16px;
+    }
+    .checkout-section .payment-subtitle-2 {
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    .checkout-section .promo {
+        margin-top: 30px;
+        font-size: 22px;
+    }
+    .signIn-section .opedia-img {
+        width: 80%;
+    }
+    .section-title2 h2 {
+        font-size: 16px;
+    }
+    .section-title2 h2 span {
+        font-size: 26px;
+    }
+    .activities-section .section-title h2:after {
+        width: 216px;
+    }
+    .teacher-section .section-title h2:after {
+        width: 258px;
+    }
+    .marketplace-section .section-title h2:after {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .header-logo-img img {
+        width: 225px;
+    }
+    .hero-left-content h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+    .hero-left-content p {
+        font-size: 1.4rem;
+    }
+    .btn-second {
+        font-size: 1.3rem;
+    }
+    .btn-main {
+        font-size: 1.3rem;
+    }
+    .nav__list {
+        column-gap: 1.5rem;
+    }
+    .nav__icon {
+        font-size: 2rem;
+    }
+    .nav__name {
+        font-size: 1.2rem !important;
+    }
+    .course-bottom-item {
+        width: 11em;
+        margin-bottom: 5em;
+    }
+    .course-bottom-item:nth-child(1):after {
+        right: -4rem;
+    }
+    .course-bottom-item:nth-child(2):after {
+        display: none;
+    }
+    .course-details-wrap {
+        width: 31rem;
+    }
+    /* ACTIVITIES SECTION */
+    .activities-section .owl-carousel .owl-stage-outer {
+        height: 35rem;
+    }
+    .activities-bottom p {
+        line-height: 2.5rem;
+        font-size: 1.6rem;
+    }
+    /* MARKET SECTION */
+    .course-short-modal.market .course-details-wrap {
+        width: 30rem;
+    }
+    .marketplace-section .section-title h2:after {
+        right: 50%;
+        transform: translate(50%);
+    }
+    .projects-item .card-body h4 {
+        font-size: 20px;
+    }
+    .projects-item .card-body h4 span {
+        font-size: 14px;
+    }
+    .mt-80 {
+        margin-top: 0;
+    }
+    .section-title span {
+        font-size: 2rem;
+    }
+    .list-group-item {
+        font-size: 1.3rem;
+    }
+    .activities-page .owl-carousel .owl-stage-outer {
+        height: 67rem;
+    }
+    .partners__logo img {
+        width: 150px;
+    }
+    /* FOOTER */
+    .footer__foot p {
+        font-size: 12px;
+    }
+    .seat__title h4 {
+        font-size: 25px;
+    }
+    .overview__course__details .enroll__quate button {
+        font-size: 16px;
+    }
+    .overview__module .module__list,
+    .requirement__post {
+        margin-top: 35px;
+    }
+    .career__opportunity .title p {
+        margin: 21px 0 40px;
+    }
+    .requiremnts,
+    .software {
+        padding: 34px 26px;
+    }
+    .requiremnts h4,
+    .software h4 {
+        font-size: 22px;
+    }
+    .social_list img {
+        width: 4em;
+    }
+    .checkout-section .main-title {
+        font-size: 23px;
+        line-height: 1.5;
+    }
+    .checkout-section .payment-subtitle {
+        font-size: 14px;
+    }
+    .checkout-section .payment-subtitle-2 {
+        font-size: 18px;
+    }
+    .student-project-section .section-title h2 {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 374PX) {
+    .nav__list {
+        column-gap: 1.5rem;
+    }
+    .nav__name {
+        font-size: 1rem !important;
+    }
+    /* COURSE SECTION */
+    .course-bottom-item:nth-child(1):after {
+        display: none;
+    }
+    .course-footer-wrap {
+        justify-content: center;
+    }
+    .course-bottom-item {
+        width: 13em;
+        margin-bottom: 5em;
+    }
+    .course-footer h2:after {
+        left: 22%;
+    }
+    .list-group-item {
+        font-size: 1.1rem;
+    }
+    .partners__logo img {
+        width: 130px;
+    }
+    .course-wrap.c_wrap_page .card img {
+        height: 164px;
+    }
+    p.mentor_name {
+        top: 40%;
+    }
+    .header-title>h1 {
+        font-size: 23px;
+        line-height: 37px;
+    }
+    .send-btn {
+        padding: 11px 51px;
+        font-size: 17px;
+    }
+    .registration-section label {
+        font-size: 17px;
+    }
+    .checkout-section .main-title {
+        font-size: 20px;
+    }
+    .checkout-section .pay-cost>h2 {
+        font-size: 18px;
+    }
+    .signIn-section .title-signin {
+        font-size: 37px;
+    }
+}
+
+@media screen and (max-width: 319PX) {
+    .nav__list {
+        column-gap: 3.5rem;
+    }
+    .nav__icon {
+        font-size: 2.5rem;
+    }
+    .facility__box.text-center {
+        margin-bottom: 40px;
+    }
+    .facility__box.text-center {
+        padding: 18px;
+    }
+    .facility__box.text-center h4 {
+        font-size: 30px;
+    }
+    .facility__title h1 {
+        font-size: 37px;
+    }
+    .course__title h1 {
+        font-size: 19px;
+    }
+    .overview__course__details .title h4 {
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+    .requiremnts ul li,
+    .software .difl ul li {
+        font-size: 17px;
+        line-height: unset;
+    }
+}
+
+
+/* =======responsive end here====== */
