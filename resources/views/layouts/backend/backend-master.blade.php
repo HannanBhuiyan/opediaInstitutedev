@@ -7,7 +7,7 @@
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- App favicon -->
         <link rel="shortcut icon" href="{{ asset('backend') }}/assets/images/favicon.ico">
         <!-- App css -->
@@ -21,15 +21,11 @@
 
 
     <body>
-
         <!-- Begin page -->
         <div id="wrapper">
-
             <!-- ========== Left Sidebar Start ========== -->
             <div class="left side-menu">
-
                 <div class="slimscroll-menu" id="remove-scroll">
-
                     <!-- LOGO -->
                     <div class="topbar-left">
                         <a href="index.html" class="logo">
@@ -63,44 +59,38 @@
                             <li>
                                 <a href="javascript: void(0);"><i class="fi-layers"></i> <span> Category </span> <span class="menu-arrow"></span></a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="apps-calendar.html">Add Category</a></li>
-                                    <li><a href="{{ route('category.index') }}">List Category</a></li>
+                                    <li><a href="{{ route('category.index') }}">Category</a></li>
                                 </ul>
+                            </li>
+                            <li>
+                                <a href="{{ route('contact.index') }}">
+                                    <i class="fi-air-play"></i><span class="badge badge-info badge-pill pull-right">7</span> <span> Message </span>
+                                </a>
                             </li>
                         </ul>
                     </div>
                     <!-- Sidebar -->
-
                     <div class="clearfix"></div>
-
                 </div>
                 <!-- Sidebar -left -->
 
             </div>
             <!-- Left Sidebar End -->
 
-
-
             <!-- ============================================================== -->
             <!-- Start right Content here -->
             <!-- ============================================================== -->
-
             <div class="content-page">
-
                 <!-- Top Bar Start -->
                 <div class="topbar">
-
                     <nav class="navbar-custom">
-
                         <ul class="list-unstyled topbar-right-menu float-right mb-0">
-
                             <li class="hide-phone app-search">
                                 <form>
                                     <input type="text" placeholder="Search..." class="form-control">
                                     <button type="submit"><i class="fa fa-search"></i></button>
                                 </form>
                             </li>
-
                             <li class="dropdown notification-list">
                                 <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" role="button"
                                    aria-haspopup="false" aria-expanded="false">
@@ -108,22 +98,17 @@
                                     <span class="badge badge-danger badge-pill noti-icon-badge">4</span>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg">
-
                                     <!-- item-->
                                     <div class="dropdown-item noti-title">
                                         <h5 class="m-0"><span class="float-right"><a href="" class="text-dark"><small>Clear All</small></a> </span>Notification</h5>
                                     </div>
-
                                     <div class="slimscroll" style="max-height: 230px;">
                                         <!-- item-->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item">
                                             <div class="notify-icon bg-success"><i class="mdi mdi-comment-account-outline"></i></div>
                                             <p class="notify-details">Caleb Flakelar commented on Admin<small class="text-muted">1 min ago</small></p>
                                         </a>
-
-
                                     </div>
-
                                     <!-- All-->
                                     <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
                                         View all <i class="fi-arrow-right"></i>
@@ -207,11 +192,8 @@
                                     </ol>
                                 </div>
                             </li>
-
                         </ul>
-
                     </nav>
-
                 </div>
                 <!-- Top Bar End -->
 
@@ -220,9 +202,7 @@
                     <div class="container-fluid">
 
                         @yield("content")
-
                     </div> <!-- container -->
-
                 </div> <!-- content -->
 
                 <footer class="footer text-right">
@@ -260,6 +240,8 @@
         <script src="{{ asset('backend') }}/plugins/flot-chart/curvedLines.js"></script>
         <script src="{{ asset('backend') }}/plugins/flot-chart/jquery.flot.axislabels.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script>
+        <script src="//unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js"></script>
         <!-- KNOB JS -->
         <!--[if IE]>
         <script type="text/javascript" src="../plugins/jquery-knob/excanvas.js"></script>
@@ -274,6 +256,8 @@
         <script src="{{ asset('backend') }}/assets/js/jquery.app.js"></script>
 
 
+        @yield('scripts')
+
         @if(Session::has('success'))
             <script>
                 toastr.success("{!! Session::get('success') !!}")
@@ -285,6 +269,20 @@
                 toastr.error("{!! Session::get('fail') !!}")
             </script>
         @endif
+
+
+
+        <script>
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+        </script>
+
+
+
+
 
 
     </body>

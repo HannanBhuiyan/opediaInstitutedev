@@ -13,7 +13,7 @@
             <ul class="nav nav-tabs">
                 <li class="nav-item">
                     <a href="#change_image" data-toggle="tab" aria-expanded="false" class="nav-link active show">
-                       <i class="fi-monitor mr-2"></i> Change Image
+                       <i class="fa fa-picture-o mr-2"></i> Change Image
                     </a>
                 </li>
                 <li class="nav-item">
@@ -23,7 +23,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#messages" data-toggle="tab" aria-expanded="false" class="nav-link">
-                        <i class="fi-mail mr-2"></i> Change Profile
+                        <i class="fa fa-user mr-2"></i> Change Profile
                     </a>
                 </li>
 

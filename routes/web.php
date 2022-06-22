@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\ContactController;
 use App\Http\Controllers\HomeController;
 
 
@@ -22,13 +23,16 @@ Route::post('Admin/profile/image/update', [ProfileController::class, 'AdminProfi
 Route::post('Admin/profile/password/update', [ProfileController::class, 'AdminProfilePasswordUpdate'])->name('profiles.password.update');
 Route::post('Admin/profile/update', [ProfileController::class, 'AdminProfileUpdate'])->name('profiles.update');
 
+
 // category
-
 Route::resource('category', CategoryController::class);
+Route::get('/category/Delete/{id}', [CategoryController::class, 'categoryDelete']);
 
+
+// contact
+Route::get('contact', [ContactController::class, 'ContactIndex'])->name('contact.index');
 
 
 
 // =================== frontend controller ===========================
-
 Route::get('/', [FrontendHomeController::class, 'FrontendIndex'])->name('frontend.index');
