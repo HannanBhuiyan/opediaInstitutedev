@@ -4,11 +4,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ProfileController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ContactController;
+use App\Http\Controllers\Admin\CourseController;
 use App\Http\Controllers\HomeController;
 
-
 use App\Http\Controllers\Frontend\FrontendHomeController;
-
 
 
 
@@ -31,6 +30,12 @@ Route::get('/category/Delete/{id}', [CategoryController::class, 'categoryDelete'
 
 // contact
 Route::get('contact', [ContactController::class, 'ContactIndex'])->name('contact.index');
+Route::get('contact/{id}', [ContactController::class, 'singleContect'])->name('singleContect');
+Route::get('/contact/Delete/{id}', [ContactController::class, 'ContactDelete']);
+
+
+// course
+Route::resource('course', CourseController::class);
 
 
 

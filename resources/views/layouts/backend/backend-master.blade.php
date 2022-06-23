@@ -63,6 +63,13 @@
                                 </ul>
                             </li>
                             <li>
+                                <a href="javascript: void(0);"><i class="fi-layers"></i> <span> Course </span> <span class="menu-arrow"></span></a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li><a href="{{ route('course.create') }}">Add Course</a></li>
+                                    <li><a href="{{ route('course.index') }}">List Course</a></li>
+                                </ul>
+                            </li>
+                            <li>
                                 <a href="{{ route('contact.index') }}">
                                     <i class="fi-air-play"></i><span class="badge badge-info badge-pill pull-right">7</span> <span> Message </span>
                                 </a>
@@ -270,8 +277,6 @@
             </script>
         @endif
 
-
-
         <script>
             $.ajaxSetup({
                 headers: {
@@ -279,10 +284,6 @@
                 }
             });
         </script>
-
-
-
-
 
 
     </body>
